@@ -1,12 +1,12 @@
 
 ```markdown
-# 🛂 AI-Powered Document & KYC Verification API
+#  AI-Powered Document & KYC Verification API
 
 A FastAPI-based backend system that leverages **OCR** and **LLM (Mistral AI)** to verify documents like Aadhaar, PAN, Driving License, Flight Tickets, and Train Tickets. Built with clean architecture, SOLID principles, and environment-based configurations using `.env`.
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 - **Framework**: FastAPI
 - **OCR**: EasyOCR / Tesseract + OpenCV
@@ -19,7 +19,7 @@ A FastAPI-based backend system that leverages **OCR** and **LLM (Mistral AI)** t
 ---
 
 
-## 🔧 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -51,7 +51,7 @@ MISTRAL_API_KEY=your_mistral_api_key_or_blank_for_local
 MISTRAL_ENDPOINT=http://localhost:11434/api/generate  # or remote API endpoint
 ```
 
-> ⚠️ Your `.env` file is ignored by Git using `.gitignore`.
+>  Your `.env` file is ignored by Git using `.gitignore`.
 
 ### 5. Run the App
 
@@ -63,7 +63,7 @@ Visit your local server at: `http://127.0.0.1:8000/docs`
 
 ---
 
-## 🖼️ How It Works
+##  How It Works
 
 1. User uploads Aadhaar, PAN, License, or Ticket image.
 2. OCR engine extracts raw text.
@@ -72,7 +72,7 @@ Visit your local server at: `http://127.0.0.1:8000/docs`
 
 ---
 
-## 🧪 Example Output
+##  Example Output
 
 **Input**: Aadhaar card image
 **Output**:
@@ -87,7 +87,7 @@ Visit your local server at: `http://127.0.0.1:8000/docs`
 
 ---
 
-## 🔒 Security Notes
+##  Security Notes
 
 * `.env` is excluded via `.gitignore` to prevent leaking secrets.
 * Always rotate API keys if shared by mistake.
@@ -95,7 +95,7 @@ Visit your local server at: `http://127.0.0.1:8000/docs`
 
 ---
 
-## 👥 Contributing
+##  Contributing
 
 1. Fork this repository
 2. Create a new branch
@@ -104,13 +104,13 @@ Visit your local server at: `http://127.0.0.1:8000/docs`
 
 ---
 
-## 🧾 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🔗 Useful Links
+##  Useful Links
 
 * [FastAPI Docs](https://fastapi.tiangolo.com/)
 * [Mistral AI](https://mistral.ai/)
@@ -118,7 +118,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 💻 Author
+##  Author
 
 Built with ❤️ by **Ganesh Divekar**
 
