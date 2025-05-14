@@ -80,8 +80,8 @@ Visit your local server at: `http://127.0.0.1:8000/docs`
 ```json
 {
   "name": "Ganesh Jalindar Divekar",
-  "dob": "31/03/1992",
-  "aadhaar_number": "5296 6023 5315"
+  "dob": "XX/XX/XXXX",
+  "aadhaar_number": "XXXX XXXX XXXX"
 }
 ```
 
